@@ -7,11 +7,11 @@ float addTax(float taxRate, float cost) { // Function to add tax to subtotal
     return value;
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv) { // Make sure to put in command line input for the rate and subtotal/cost of item before tax
     float rate = atof(argv[1]); // Command Line Input
     // Tax Rate (XX.XX - Do not put %)
     float sub = atof(argv[2]); // Command Line Input
-    // Before Tax (XX.XX - Do not put $)
+    // Before Tax Amount (XX.XX - Do not put $)
     float total; // After Tax
 
     total = addTax(rate, sub); // Function Call

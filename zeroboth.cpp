@@ -6,7 +6,7 @@ void zeroBoth(int &var1, int &var2) { // Parameters pass-by-reference; Function 
     var2 = 0;
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv) { // Make sure to put in command line input for number 1 and number 2
     int num1 = atoi(argv[1]); // Command Line Input
     int num2 = atoi(argv[2]); // Command Line Input
 

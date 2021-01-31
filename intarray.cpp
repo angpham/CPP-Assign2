@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv) { // Make sure to put in command inputs of at least 10 non-negative numbers
     int size = 10;
     int numberArray[size];
     int num;
